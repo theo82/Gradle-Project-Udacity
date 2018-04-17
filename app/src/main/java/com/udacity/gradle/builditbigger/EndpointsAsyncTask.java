@@ -25,6 +25,8 @@ import theo.tziomakas.jokesandroidlib.JokesActivity;
 class EndpointsAsyncTask extends AsyncTask<Context, Void, String> {
     public static MyApi myApiService = null;
     private Context context;
+    String text;
+
 
     @Override
     protected String doInBackground(Context...params) {
