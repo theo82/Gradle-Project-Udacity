@@ -41,7 +41,6 @@ class EndpointsAsyncTaskTest extends AsyncTask<Context, Void, String> {
             myApiService = builder.build();
         }
 
-
         try {
             return myApiService.getRandomJokeService().execute().getData();
         } catch (IOException e) {

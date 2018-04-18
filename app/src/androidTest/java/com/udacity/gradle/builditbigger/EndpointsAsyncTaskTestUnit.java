@@ -54,7 +54,6 @@ public class EndpointsAsyncTaskTestUnit extends AndroidTestCase{
 
 
         onView(withId(R.id.button)).perform(click());
-        //onView(withText(new MyCoolJokes().getJoke())).check(matches(isDisplayed()));
         onView(withId(R.id.jokes_text_view)).check(matches(isDisplayed()));
     }
 
